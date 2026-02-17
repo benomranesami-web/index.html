@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télé-Plomberie | Réparez avec un Pro en Visio</title>
+    <style>
+        /* Styles de base */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 { color: #0056b3; }
+        
+        /* En-tête */
+        header {
+            background-color: #fff;
+            padding: 20px 50px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 24px; font-weight: bold; color: #0056b3; }
+        
+        /* Section Principale (Hero) */
+        .hero {
+            background: linear-gradient(135deg, #0056b3, #0099ff);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 { color: white; font-size: 40px; margin-bottom: 20px; }
+        .hero p { font-size: 20px; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .btn {
+            background-color: #ff9900;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover { background-color: #cc7a00; }
+
+        /* Comment ça marche */
+        .steps {
+            display: flex;
+            justify-content: space-around;
+            padding: 60px 20px;
+            text-align: center;
+            background-color: white;
+            flex-wrap: wrap;
+        }
+        .step { flex: 1; min-width: 250px; padding: 20px; }
+        .step-number {
+            background-color: #0056b3;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        /* Section Réservation */
+        .booking {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .booking-widget-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border: 2px dashed #ccc; /* Bordure pour vous montrer où mettre le widget */
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Plombier-Visio</div>
+        <a href="#reservation" class="btn">Prendre RDV</a>
+    </header>
+
+    <section class="hero">
+        <h1>Réparez vous-même votre plomberie avec l'aide d'un Pro</h1>
+        <p>Ne payez plus de frais de déplacement inutiles. Je vous guide en visioconférence pas-à-pas pour réparer vos fuites et installer vos équipements.</p>
+        <a href="#reservation" class="btn">Voir les tarifs et réserver</a>
+    </section>
+
+    <section class="steps">
+        <div class="step">
+            <div class="step-number">1</div>
+            <h3>Prenez Rendez-vous</h3>
+            <p>Choisissez un créneau dans mon agenda et payez la séance en ligne de manière sécurisée.</p>
+        </div>
+        <div class="step">
+            <div class="step-number">2</div>
+            <h3>Connectez-vous</h3>
+            <p>Recevez un lien par email. À l'heure prévue, cliquez dessus pour démarrer la visio sur votre téléphone.</p>
+        </div>
+        <div class="step">
+            <div class="step-number">3</div>
+            <h3>Réparez</h3>
+            <p>Montrez-moi le problème via votre caméra, je vous explique exactement ce qu'il faut faire, geste par geste.</p>
+        </div>
+    </section>
+
+    <section id="reservation" class="booking">
+        <h2>Prenez rendez-vous pour votre diagnostic</h2>
+        <p>Facturation à la séance (20€ pour 15 min / 40€ pour 30 min).</p>
+        
+        <div class="booking-widget-container">
+            <h3>[ZONE RÉSERVÉE À VOTRE CALENDRIER]</h3>
+            <p><i>C'est ici que vous collerez le code fourni par Calendly (ou un autre outil de réservation). Ce code affichera automatiquement votre agenda, les choix de prix, et le module de paiement par carte bleue.</i></p>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Plombier-Visio. Tous droits réservés.</p>
+        <p><em>Rappel : Nos conseils constituent une obligation de moyens. Les manipulations physiques restent sous l'entière responsabilité du client.</em></p>
+    </footer>
+
+</body>
+</html>
